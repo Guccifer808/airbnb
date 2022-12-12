@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="flex sm:mx-6 md:mx-8 lg:mx-10 items-center justify-between">
         {/* Left */}
         <div className="flex h-20 -mx-12">
-          <img src={logo} alt="logo" className="object-cover -my-10 " />
+          <img src={logo} alt="logo" className="object-cover -my-10" />
         </div>
         {/* Middle */}
         <div className="hidden lg:flex items-center justify-center relative border shadow-md shadow-gray-300 rounded-full">
