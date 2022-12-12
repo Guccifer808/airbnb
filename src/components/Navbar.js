@@ -38,7 +38,7 @@ const Navbar = () => {
           <div
             className="flex bg-[#FF385C] text-white font-semibold 
                         items-center px-3 py-2 gap-3 border rounded-full
-                        shadow-lg shadow-gray-300 hover:text-black hover:bg-[#ffffff] duration-100 ease-out
+                        shadow-md shadow-gray-300 hover:text-black hover:bg-[#ffffff] hover:outline-none duration-100 ease-out
                         "
           >
             <FiMenu className="text-[18px]" />
