@@ -19,15 +19,15 @@ const Filter = () => {
     { title: "Trending", icon: <FaHotjar /> },
     { title: "New", icon: <GiHouseKeys /> },
     { title: "Mountains", icon: <GiPeaks /> },
-    { title: "Play", icon: <GiBowlingStrike /> },
-    { title: "Wow!", icon: <GiUfo /> },
-    { title: "Beach", icon: <GiPalmTree /> },
-    { title: "Hanoks", icon: <GiVikingLonghouse /> },
+    // { title: "Play", icon: <GiBowlingStrike /> },
+    // { title: "Wow!", icon: <GiUfo /> },
+    // { title: "Beach", icon: <GiPalmTree /> },
+    // { title: "Hanoks", icon: <GiVikingLonghouse /> },
   ];
 
   return (
     <div className="sm:mx-6 md:mx-8 lg:mx-10">
-      <div className="flex justify-center gap-3 mt-2">
+      <div className="flex justify-start sm:gap-4 gap-3 mt-4 pl-3">
         {sortOptions.map((obj) => (
           <Sorting title={obj.title} icon={obj.icon} />
         ))}
