@@ -3,11 +3,11 @@ import { FaHotjar } from "react-icons/fa";
 import {
   GiHouseKeys,
   GiPeaks,
-  GiBowlingStrike,
-  GiVikingLonghouse,
+  // GiBowlingStrike,
+  // GiVikingLonghouse,
   GiSailboat,
-  GiUfo,
-  GiPalmTree,
+  // GiUfo,
+  // GiPalmTree,
 } from "react-icons/gi";
 import { TbDisabled2 } from "react-icons/tb";
 import Sorting from "./Sorting";
