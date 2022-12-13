@@ -25,7 +25,7 @@ const Navbar = () => {
             <button className="w-full ">Guests</button>
           </div>
           <div className="flex bg-[#FF385C] rounded-full p-2 mr-2 ">
-            <FiSearch className="text-white" />
+            <FiSearch className="text-white " />
           </div>
         </div>
         {/* Right */}
@@ -38,7 +38,7 @@ const Navbar = () => {
           <div
             className="flex bg-[#FF385C] text-white font-semibold 
                         items-center px-3 py-2 gap-3 border rounded-full
-                        shadow-md shadow-gray-300 hover:text-black hover:bg-[#ffffff] hover:outline-none duration-100 ease-out
+                        shadow-md shadow-gray-300 hover:text-black hover:bg-[#ffffff] hover:outline-none duration-200 ease-out
                         "
           >
             <FiMenu className="text-[18px]" />

@@ -24,3 +24,17 @@ code {
   rgba(40, 40, 40, 1) 100%
   );
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+  width:10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(194, 193, 193);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(173, 173, 173);
+}

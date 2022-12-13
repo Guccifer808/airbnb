@@ -1,6 +1,6 @@
 import React from "react";
 import { BsStarFill } from "react-icons/bs";
-const ItemCard = ({ title, image, price, date }) => {
+const ItemCard = ({ title, image, price, date, rating }) => {
   return (
     <div className="">
       <div className="relative">
@@ -33,7 +33,7 @@ const ItemCard = ({ title, image, price, date }) => {
         {/* Right */}
         <div className="flex items-center space-x-1">
           <BsStarFill />
-          <p className="text-[14px]">5.0</p>
+          <p className="text-[14px]">{rating}</p>
         </div>
       </div>
     </div>
