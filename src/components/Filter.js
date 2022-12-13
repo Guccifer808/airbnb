@@ -26,8 +26,8 @@ const Filter = () => {
   ];
 
   return (
-    <div className="sm:mx-6 md:mx-8 lg:mx-10">
-      <div className="flex justify-start sm:gap-4 gap-3 mt-4 pl-3">
+    <div className="">
+      <div className="flex justify-start sm:gap-4 gap-3 mt-4 pl-0 sm:pl-0 md:pl-0 lg:pl-0 xl:pl-0">
         {sortOptions.map((obj) => (
           <Sorting title={obj.title} icon={obj.icon} />
         ))}

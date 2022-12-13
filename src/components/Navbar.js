@@ -6,7 +6,7 @@ import { AiOutlineUser } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div className="border-b">
+    <div className="border-b sticky top-0 bg-white z-50">
       <div className="flex sm:mx-6 md:mx-8 lg:mx-10 items-center justify-between">
         {/* Left */}
         <div className="flex h-20 -mx-12">
